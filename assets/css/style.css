@@ -77,7 +77,7 @@ sup {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(0,0,0,1);
+  color: rgba(0,0,0,1) ;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 12px;
@@ -122,11 +122,11 @@ sup {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #3b434a;
+  color: #3b434a !important;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #ffb727;
+  color: #ffb727 !important;
 }
 
 .nav-menu .drop-down > a:after {
@@ -931,7 +931,7 @@ section {
   padding: 15px;
   font-weight: 600;
   width: 100%;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .contact .php-email-form .error-message br + br {
@@ -1020,6 +1020,19 @@ section {
 	form.php-email-form {
 		margin-top: 24px;
 	}
+}
+
+.site-frame {
+	padding: 0 !important;
+	max-height: 500px !important;
+}
+
+.site-container {
+	max-height: 500px !important;
+}
+
+.form-status-message {
+	margin: 0 !important; 
 }
 
 /*--------------------------------------------------------------
