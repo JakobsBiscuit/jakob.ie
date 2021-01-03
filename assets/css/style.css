@@ -927,11 +927,10 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
+  display: block;width: 100%;max-height: 500px;
 }
 
 .contact .php-email-form .error-message br + br {
