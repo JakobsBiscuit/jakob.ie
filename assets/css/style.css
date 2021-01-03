@@ -760,6 +760,12 @@ section {
   opacity: 1;
 }
 
+.img-fluid {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
