@@ -72,6 +72,11 @@ sup {
   font-size: smaller;
 }
 
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .image img {
 	width: 25.5mm;
 	float: right;
