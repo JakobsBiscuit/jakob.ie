@@ -1,0 +1,4 @@
+[submodule "cv"]
+	path = cv
+	url = https://github.com/daniel-jakob/Daniel-Jakob-CV/
+	branch = gh-pages
